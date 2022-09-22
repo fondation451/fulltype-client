@@ -3,6 +3,10 @@
   "bugs": {
     "url": "https://github.com/fondation451/typescript-starter/issues"
   },
+  "dependencies": {
+    "fulltype": "^0.0.11",
+    "fulltype-api": "^0.0.10"
+  },
   "description": "Starter repository for typescript project",
   "devDependencies": {
     "@types/jest": "^29.0.3",
@@ -26,7 +30,7 @@
     "starter"
   ],
   "license": "MIT",
-  "main": "lib/src/index.js",
+  "main": "lib/index.js",
   "name": "typescript-starter",
   "repository": {
     "type": "git",
@@ -44,6 +48,6 @@
     "test": "jest --passWithNoTests --config jestconfig.json",
     "version": "yarn format && git add -A src"
   },
-  "types": "lib/src/index.d.ts",
+  "types": "lib/index.d.ts",
   "version": "0.0.0"
 }
