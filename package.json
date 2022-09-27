@@ -1,13 +1,13 @@
 {
   "author": "Nicolas Assouad",
   "bugs": {
-    "url": "https://github.com/fondation451/typescript-starter/issues"
+    "url": "https://github.com/fondation451/fulltype-client/issues"
   },
   "dependencies": {
     "fulltype": "^0.0.11",
     "fulltype-api": "^0.0.10"
   },
-  "description": "Starter repository for typescript project",
+  "description": "Fulltype client",
   "devDependencies": {
     "@types/jest": "^29.0.3",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
@@ -24,17 +24,17 @@
   "files": [
     "lib/src/**/*"
   ],
-  "homepage": "https://github.com/fondation451/typescript-starter#readme",
+  "homepage": "https://github.com/fondation451/fulltype-client#readme",
   "keywords": [
     "typescript",
     "starter"
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "typescript-starter",
+  "name": "fulltype-client",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fondation451/typescript-starter.git"
+    "url": "git+https://github.com/fondation451/fulltype-client.git"
   },
   "scripts": {
     "build": "tsc",
@@ -49,5 +49,5 @@
     "version": "yarn format && git add -A src"
   },
   "types": "lib/index.d.ts",
-  "version": "0.0.0"
+  "version": "0.0.1"
 }
